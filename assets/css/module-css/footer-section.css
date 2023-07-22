@@ -2443,6 +2443,36 @@
     Footer Style8 area style
 =============================================
 ***/
+
+/* Font and font size changes for style8 */
+
+.footer-style8-area,
+.footer-top-style8,
+.single-footer-widget-style8 .footer-widget-our-info p,
+.single-footer-widget-style8 .title h3,
+.footer-widget-links-style8 ul li a,
+.footer-widget-style8-subscribe-box .text p,
+.footer-widget-style8-subscribe-box .subscribe-form input[type="email"],
+.footer-widget-style8-subscribe-box .subscribe-form button,
+.footer-bottom-style8 .bottom-inner .copyright p,
+.footer-menu-style8 ul li a {
+    font-family: 'Your Desired Font', sans-serif;
+    font-size: 15px;
+}
+
+/* Use the same color as style for link hover effect */
+.footer-widget-links-style8 ul li a:hover,
+.footer-menu-style8 ul li a:hover {
+    color: var(--thm-base);
+}
+
+/* Use the same color as style for the subscribe button hover effect */
+.footer-widget-style8-subscribe-box .subscribe-form button:hover {
+    color: #ffffff;
+}
+
+/* Rest of the CSS remains unchanged */
+
 .footer-style8-area {
     position: relative;
     display: block;
@@ -2456,7 +2486,7 @@
     display: block;
     overflow: hidden;
     padding: 110px 0 92px;
-    background-color: #426c5e;
+    background-color: #17345a;
 }
 
 .single-footer-widget-style8 {
@@ -2489,8 +2519,6 @@
     margin: 0;
 }
 
-
-
 .single-footer-widget-style8 .title {
     position: relative;
     display: block;
@@ -2505,8 +2533,6 @@
     font-weight: 600;
     text-transform: capitalize;
 }
-
-
 
 .footer-widget-links-style8 {
     position: relative;
@@ -2542,7 +2568,6 @@
     color: #e9ecea;
     font-size: 17px;
     font-weight: 400;
-    font-family: var(--thm-font);
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -2560,8 +2585,6 @@
     bottom: 0;
     font-size: 18px;
 }
-
-
 
 .footer-widget-style8-subscribe-box {
     position: relative;
@@ -2593,7 +2616,6 @@
     font-style: normal;
     border-radius: 0px;
     transition: all 500ms ease;
-    font-family: var(--thm-font);
 }
 
 .footer-widget-style8-subscribe-box .subscribe-form button {
@@ -2617,14 +2639,10 @@
     color: #ffffff;
 }
 
-
-
-
-
 .footer-bottom-style8 {
     position: relative;
     display: block;
-    background: #497768;
+    background: #17345a;
     border-top: 1px solid #3a5e52;
 }
 
@@ -2660,8 +2678,6 @@
 .footer-bottom-style8 .bottom-inner .copyright p a:hover {
     color: var(--thm-base);
 }
-
-
 
 .footer-menu-style8 {
     position: relative;

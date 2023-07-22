@@ -67,6 +67,30 @@
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
+    <style>
+        .rating {
+          display: inline-block;
+          font-size: 0;
+        }
+    
+        .rating input {
+          display: none;
+        }
+    
+        .rating label {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          background-image: url('path/to/star-icon.png'); /* Replace with your star icon */
+          background-repeat: no-repeat;
+          background-position: 0 -30px;
+          cursor: pointer;
+        }
+    
+        .rating input:checked + label {
+          background-position: 0 0;
+        }
+      </style>
 
 </head>
 
@@ -500,13 +524,13 @@
                     <div class="col-xl-12">
                         <div class="inner-content">
                             <div class="title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                                <h2>Events Style 02</h2>
+                                <h2>Courses</h2>
                             </div>
                             <div class="breadcrumb-menu" data-aos="fade-down" data-aos-easing="linear"
                                 data-aos-duration="1500">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li class="active">Events 02</li>
+                                    <li class="active">Courses</li>
                                 </ul>
                             </div>
                         </div>
@@ -520,68 +544,7 @@
         <!--Start Events page Two-->
         <section class="events-page-two">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="events-form-box">
-                            <form id="events-form" name="events_form" class="default-form1" action="#" method="post">
-
-                                <div class="row">
-                                    <div class="col-xl-4">
-                                        <div class="input-box">
-                                            <input type="text" name="date" placeholder="Event From" id="datepicker">
-                                            <div class="icon">
-                                                <span class="icon-date"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4">
-                                        <div class="input-box">
-                                            <div class="select-box">
-                                                <select class="wide">
-                                                    <option data-display="Service You Need">
-                                                        All Categories
-                                                    </option>
-                                                    <option value="1">Sports & Games</option>
-                                                    <option value="2">Seminar</option>
-                                                    <option value="3">Exhibition</option>
-                                                    <option value="4">Education</option>
-                                                    <option value="5">Admissions Test</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4">
-                                        <div class="input-box">
-                                            <input type="text" name="location" placeholder="Location" id="location">
-                                            <div class="icon">
-                                                <span class="icon-map"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xl-8">
-                                        <div class="input-box">
-                                            <input placeholder="Enter Your Keyword..." type="search" id="search">
-                                            <div class="icon">
-                                                <span class="icon-zoom"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4">
-                                        <div class="button-box">
-                                            <button class="btn-one btn-one--style2" type="submit"
-                                                data-loading-text="Please wait...">
-                                                <span class="txt"><i class="icon-right-arrow-1"></i>Find Events</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div class="row">
                     <div class="col-xl-12">
@@ -601,16 +564,7 @@
                             <div class="single-event-two__inner">
                                 <div class="row">
                                     <div class="col-xl-4">
-                                        <div class="single-event-two__info-box">
-                                            <div class="date-box">
-                                                <h2>01</h2>
-                                                <h4>Dec, 2022</h4>
-                                            </div>
-                                            <ul>
-                                                <li><span class="icon-time"></span> 10.00 am - 01.00 pm</li>
-                                                <li><span class="icon-location-1"></span> Educamb Ronald Auditorium</li>
-                                            </ul>
-                                        </div>
+                                        <img src="path/to/your/photo.jpg" alt="My Photo">
                                     </div>
                                     <div class="col-xl-8">
                                         <div class="single-event-two__text-box">
@@ -618,27 +572,34 @@
                                                 <div class="text-box">
                                                     <h3>
                                                         <a href="events-details.html">
-                                                            Women's Basketball Tournmentat Indoor Court
+                                                            Learn with fun
                                                         </a>
                                                     </h3>
                                                     <p>Indignation and dislike men who so beguiled occur which pain can
                                                         their duty weakness demoralized by desires.</p>
                                                 </div>
                                                 <div class="price-box">
-                                                    <div class="inner">
-                                                        <h3>Free</h3>
-                                                    </div>
-                                                </div>
+                                                    <input type="radio" id="star5" name="rating" value="5" checked>
+                                                    <label for="star5"></label>
+                                                    <input type="radio" id="star4" name="rating" value="4">
+                                                    <label for="star4"></label>
+                                                    <input type="radio" id="star3" name="rating" value="3">
+                                                    <label for="star3"></label>
+                                                    <input type="radio" id="star2" name="rating" value="2">
+                                                    <label for="star2"></label>
+                                                    <input type="radio" id="star1" name="rating" value="1">
+                                                    <label for="star1"></label>
+                                                  </div>
                                             </div>
                                             <div class="bottom">
-                                                <div class="btn-box">
-                                                    <a href="events-details.html">
-                                                        <span class="icon-right-arrow-1"></span>Read More
-                                                    </a>
-                                                </div>
+                                                <button class="btn-one" type="submit" data-loading-text="Please wait...">
+                                                    <span class="txt">
+                                                        Enroll Now
+                                                    </span>
+                                                </button>
                                                 <div class="category-box">
                                                     <span class="fa fa-bookmark-o"></span>
-                                                    <p>Sports & Games</p>
+                                                    <p>Basics</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -653,16 +614,7 @@
                             <div class="single-event-two__inner">
                                 <div class="row">
                                     <div class="col-xl-4">
-                                        <div class="single-event-two__info-box">
-                                            <div class="date-box">
-                                                <h2>24</h2>
-                                                <h4>Dec, 2022</h4>
-                                            </div>
-                                            <ul>
-                                                <li><span class="icon-time"></span> 08.00 am - 09.00 pm</li>
-                                                <li><span class="icon-location-1"></span> Educamb Rose Marry Hall</li>
-                                            </ul>
-                                        </div>
+                                        <img src="path/to/your/photo.jpg" alt="My Photo">
                                     </div>
                                     <div class="col-xl-8">
                                         <div class="single-event-two__text-box">
@@ -670,7 +622,7 @@
                                                 <div class="text-box">
                                                     <h3>
                                                         <a href="events-details.html">
-                                                            Twenty Minutes Still Meditation in Bond
+                                                            Foundation 1 
                                                         </a>
                                                     </h3>
                                                     <p>Beguiled and demoralized by the so blinded are by desires occur
@@ -678,7 +630,7 @@
                                                 </div>
                                                 <div class="price-box">
                                                     <div class="inner">
-                                                        <h3>$8</h3>
+                                                        <h3>#</h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -690,7 +642,7 @@
                                                 </div>
                                                 <div class="category-box">
                                                     <span class="fa fa-bookmark-o"></span>
-                                                    <p>Seminar</p>
+                                                    <p>Basic</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -705,17 +657,7 @@
                             <div class="single-event-two__inner">
                                 <div class="row">
                                     <div class="col-xl-4">
-                                        <div class="single-event-two__info-box">
-                                            <div class="date-box">
-                                                <h2>17</h2>
-                                                <h4>Jan, 2022</h4>
-                                            </div>
-                                            <ul>
-                                                <li><span class="icon-time"></span> 04.00 am - 5.30 pm</li>
-                                                <li><span class="icon-location-1"></span> Educamb Vincent Auditorium
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <img src="path/to/your/photo.jpg" alt="My Photo">
                                     </div>
                                     <div class="col-xl-8">
                                         <div class="single-event-two__text-box">
@@ -723,7 +665,7 @@
                                                 <div class="text-box">
                                                     <h3>
                                                         <a href="events-details.html">
-                                                            Student Art Exhibit - Chairs by Design Students
+                                                            Foundation 2 
                                                         </a>
                                                     </h3>
                                                     <p>Toil and pain can procure him some great pleasure demoralized by
@@ -758,17 +700,7 @@
                             <div class="single-event-two__inner">
                                 <div class="row">
                                     <div class="col-xl-4">
-                                        <div class="single-event-two__info-box">
-                                            <div class="date-box">
-                                                <h2>25</h2>
-                                                <h4>Jan, 2022</h4>
-                                            </div>
-                                            <ul>
-                                                <li><span class="icon-time"></span>10.00 am - 01.00 pm</li>
-                                                <li><span class="icon-location-1"></span>Educamb Ronald Auditorium
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <img src="path/to/your/photo.jpg" alt="My Photo">
                                     </div>
                                     <div class="col-xl-8">
                                         <div class="single-event-two__text-box">
@@ -776,7 +708,7 @@
                                                 <div class="text-box">
                                                     <h3>
                                                         <a href="events-details.html">
-                                                            Women's Basketball Tournament
+                                                            Practioner 1
                                                         </a>
                                                     </h3>
                                                     <p>Indignation and dislike men who so beguiled occur which pain can
@@ -811,16 +743,7 @@
                             <div class="single-event-two__inner">
                                 <div class="row">
                                     <div class="col-xl-4">
-                                        <div class="single-event-two__info-box">
-                                            <div class="date-box">
-                                                <h2>06</h2>
-                                                <h4>Dec, 2022</h4>
-                                            </div>
-                                            <ul>
-                                                <li><span class="icon-time"></span> 08.00 am - 09.00 pm</li>
-                                                <li><span class="icon-location-1"></span> Educamb Rose Marry Hall</li>
-                                            </ul>
-                                        </div>
+                                        <img src="path/to/your/photo.jpg" alt="My Photo">
                                     </div>
                                     <div class="col-xl-8">
                                         <div class="single-event-two__text-box">
@@ -828,7 +751,7 @@
                                                 <div class="text-box">
                                                     <h3>
                                                         <a href="events-details.html">
-                                                            Twenty Minutes Still Meditation in Bond
+                                                            Practioner 2
                                                         </a>
                                                     </h3>
                                                     <p>Beguiled and demoralized by the so blinded are by desires occur

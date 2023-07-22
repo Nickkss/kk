@@ -1298,7 +1298,7 @@
 .blog-details-page__text-3 h3 {
     font-size: 26px;
     line-height: 30px;
-    margin: 0 0 26px;
+    margin: 50px 100px 20px;
 }
 
 .blog-details-page__text-3 .inner-text {
@@ -1307,7 +1307,7 @@
 }
 
 .blog-details-page__text-3 .inner-text p {
-    margin: 0;
+    margin: 0px 100px 0px 100px;
 }
 
 .blog-details-page__text-3 .inner-text p span {
@@ -2085,7 +2085,6 @@
     margin: 0;
     font-family: var(--thm-font-3);
 }
-
 
 
 /*** 

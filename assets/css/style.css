@@ -2682,8 +2682,8 @@ select:focus {
 .sec-title {
     position: relative;
     display: block;
-    margin-top: -9px;
-    padding-bottom: 52px;
+    margin-top: 15px;
+    padding-bottom: 30px;
 }
 
 .sec-title h2 {
@@ -3775,7 +3775,7 @@ select:focus {
     max-width: 585px;
     width: 100%;
     float: right;
-    padding: 110px 0 110px;
+    padding: 20px 0 110px;
     padding-right: 100px;
 }
 
@@ -7376,7 +7376,7 @@ select:focus {
     display: block;
     background: #ffffff;
     z-index: 10;
-    padding: 110px 0 110px;
+    padding: 30px 0 110px;
 }
 
 .intro-style1-content {
@@ -8790,7 +8790,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 110px 0 50px;
+    padding: 65px 0 50px;
     z-index: 10;
 }
 
@@ -9586,7 +9586,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 110px 0 110px;
+    padding: 45px 0 80px;
 }
 
 .living-on-campus-img-box {
@@ -9695,7 +9695,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 110px 0 110px;
+    padding: 10px 0 0px;
 }
 
 .involment-activities-tab__button {
@@ -11266,7 +11266,7 @@ select:focus {
     display: block;
     background: #ffffff;
     background-color: #f9f5f3;
-    padding: 110px 0 110px;
+    padding: 1px 0 80px;
 }
 
 .requirements-for-degree__content {
@@ -11479,8 +11479,8 @@ select:focus {
     display: block;
     max-width: 585px;
     width: 100%;
-    padding-top: 110px;
-    padding-left: 115px;
+    padding-top: 0px;
+    padding-left: 65px;
     padding-bottom: 110px;
 }
 
@@ -11556,7 +11556,7 @@ select:focus {
 .programmes-offered-content-box .inner-content .btns-box {
     position: relative;
     display: block;
-    line-height: 0;
+    line-height: 6;
 }
 
 .programmes-offered-content-box .inner-content .btns-box a {
@@ -15981,7 +15981,7 @@ select:focus {
 }
 
 .enterprise-plan__content__inner--style2 {
-    background-color: #6357a4;
+    background-color: #034da2;
     border: none;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
 }
@@ -18149,7 +18149,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 110px 0 110px;
+    padding: 45px 0 110px;
     z-index: 10;
 }
 
@@ -18271,7 +18271,7 @@ select:focus {
 .course-details__tab-box {
     position: relative;
     display: block;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .course-details-tab-button {
@@ -18519,7 +18519,7 @@ select:focus {
     background-color: #ffffff;
     border: 1px solid #e7ece9;
     border-radius: 6px;
-    padding: 24px 30px 25px;
+    padding: 10px 10px 10px;
 }
 
 .course-layout-title-box h4 {
@@ -18634,8 +18634,8 @@ select:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #e7ece9;
-    padding: 22px 30px 22px;
+    border-top: 0px solid #e7ece9;
+    padding: 4px 15px 0px;
 }
 
 .course-layout-content-box-inner ul li:first-child {
@@ -19607,7 +19607,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 103px 0px 0px;
+    padding: 20px 0px 0px;
 }
 
 .intro-style4-area-shape1 {
@@ -19627,7 +19627,7 @@ select:focus {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 72px;
 }
 
@@ -27485,7 +27485,7 @@ select:focus {
 .error-page-area {
     position: relative;
     display: block;
-    padding: 112px 0 120px;
+    padding: 0px 0 120px;
     background: #ffffff;
     z-index: 10;
 }
